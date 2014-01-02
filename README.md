@@ -9,6 +9,7 @@ Automagically infinite space to organize your content.
 2. Visit the developer site app console (https://www.dropbox.com/developers/apply?cont=/developers/apps) and create a Dropbox API app with files and datastores (the next option is up to you). Make sure you select all file types.
 3. Give your app a name (it doesn't matter)
 4. Record the app key and secret provided by dropbox for use in a later step.
+5. On the Dropbox Developer page go into the App Console and turn on Development Users.
 5. Make sure you have mongodb installed and running. ( if installed type 'mongod' in terminal otherwise go to http://docs.mongodb.org/manual/installation/)
 6. Make sure you have nodejs installed!
 6. Then, execute the following:

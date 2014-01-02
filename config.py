@@ -1,1 +1,1 @@
-config = {'app_key': '234234','app_secret': '234234'}
+config = {'app_key': 'megd8eq555zm8jq','app_secret': 'vkm8af2cy4r3ffm'}

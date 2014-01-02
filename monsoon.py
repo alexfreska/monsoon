@@ -45,7 +45,7 @@ def monsoon(app):
 
 monsoon.add_param("action", help="either 'put' or 'grab' a file into the cloud", default=1)
 monsoon.add_param("file", help="file to commit action on", default=2)
-monsoon.add_param("third", help="---", default=3)
+monsoon.add_param("-t", "--third", help="---", default=False, action="store_true")
 
 if __name__ == "__main__":
     monsoon.run()
