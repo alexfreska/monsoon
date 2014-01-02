@@ -1,1 +1,0 @@
-config = {'app_key': 'megd8eq555zm8jq','app_secret': 'vkm8af2cy4r3ffm'}

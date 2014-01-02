@@ -15,7 +15,6 @@ def generateAccessToken(driver):
   driver.execute_script("document.getElementById('login_email').value = 'BacteroidalKali@maildrop.cc';")
   driver.execute_script("document.getElementById('login_password').value = 'PhGmJJf389BA8z8DHJAX';")
   driver.find_element_by_id('login_submit').click()
-  # driver.get_screenshot_as_file('/Users/apple/git/temp/monsoon/screens/last.png')
   driver.find_element_by_name('allow_access').click()
   auth_code = driver.find_element_by_class_name('auth-code').text
   driver.quit()
