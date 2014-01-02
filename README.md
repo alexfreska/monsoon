@@ -8,17 +8,17 @@ Automagically infinite space to organize your content.
 1. Create a "master" dropbox account to run your application.
 2. Visit the developer site app console (https://www.dropbox.com/developers/apply?cont=/developers/apps) and create a Dropbox API app with files and datastores (the next option is up to you). Make sure you select all file types.
 3. Give your app a name (it doesn't matter)
-4. Copy the demo config_demo.py file, rename it to config.py, and replace the
-appropriate app key and app secret using the ones provided to your app in the dropbox app console.
-5. You'll need an instance of mongodb running. http://docs.mongodb.org/manual/installation/
+4. Record the app key and secret provided by dropbox for use in a later step.
+5. Make sure you have mongodb installed and running. ( if installed type 'mongod' in terminal otherwise go to http://docs.mongodb.org/manual/installation/)
+6. Make sure you have nodejs installed!
 6. Then, execute the following:
 
 ```
-git clone git@github.com:raymondjacobson/monsoon.git
+git clone https://github.com/raymondjacobson/monsoon.git
 cd monsoon
-npm install -g phantomjs # requires node.js
+npm install -g phantomjs 
 pip install -r requirements.txt
-python monsoon.py
+python monsoon.py config <APP KEY> <APP SECRET>
 ```
 
 ## Usage
